@@ -1,7 +1,8 @@
 # Accessories by Michaleczeq  
 
 Modyfikacja ta dodaje do gry akcesoria do interioru.  
-<zdjecie>
+![promo_pic](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/blob/master/preview/promo_pict.jpg)  
+
 
 ### Lista Dodatków  
 Pozycje z przedrostkiem **[DLC]** oznaczają, że model nie działa bez **DLC Cabin Accessories**.  
