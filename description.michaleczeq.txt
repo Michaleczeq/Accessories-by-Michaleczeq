@@ -1,0 +1,27 @@
+[blue]POL:[normal]
+[green]Akcesoria by Michaleczeq[normal]
+Modyfikacja dodająca do gry akcesoria dla ciągników.
+Część z nich wymaga posiadania [red]DLC Cabin Accessories![normal]
+
+Modele wykonane przez Michaleczeq za pomocą SCS Blender Tools.
+
+
+[blue]ENG:[normal]
+[green]Accessories by Michaleczeq[normal]
+Modification adds to game accessories for trucks.
+Some of them require you to have [red]DLC Cabin Accessories![normal]
+
+Models made by Michaleczeq using SCS Blender Tools.
+
+
+[white]##############################################################[normal]
+
+Accessories list:
+[orange]
+* CMR
+* Xmas Tree
+* [red][DLC][orange] Xmas Bubbles (8 variants)
+* [red][DLC][orange] Rubik's cube
+* [red][DLC][orange] Snowman
+
+[normal]
