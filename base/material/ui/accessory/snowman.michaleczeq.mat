@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "snowman.michaleczeq.tobj"
+	texture_name : "texture"
+}

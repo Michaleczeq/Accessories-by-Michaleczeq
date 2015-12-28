@@ -1,0 +1,13 @@
+SiiNunit
+{
+accessory_addon_data : cmr.daf.xf_euro6.toystand
+{
+	name: "CMR"
+	price: 50
+	unlock: 0
+	icon: "cmr.michaleczeq"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
+	exterior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
+}
+}

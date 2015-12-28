@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : le_01_a_p.scania.streamline.toybig
+{
+	name: "Tapicerka 1 - Pod kolor karoserii"
+	price: 1
+	unlock: 1
+	icon: "wip.michaleczeq"
+	look: le_01
+	variant: topline_p
+	interior_model: "/vehicle/truck/upgrade/tapicerka/tapic_01_int.michaleczeq.pmd"
+	suitable_for[]: "topline.scania.streamline.cabin"
+}
+}

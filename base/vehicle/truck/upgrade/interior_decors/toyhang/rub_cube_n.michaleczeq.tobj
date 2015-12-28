@@ -1,0 +1,4 @@
+map	2d	rub_cube_n.michaleczeq.tga
+addr	clamp_to_edge	clamp_to_edge
+usage	tsnormal
+nomips

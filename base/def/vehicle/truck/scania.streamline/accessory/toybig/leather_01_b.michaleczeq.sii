@@ -1,0 +1,14 @@
+SiiNunit
+{
+accessory_addon_data : le_01_b.scania.streamline.toybig
+{
+	name: "Tapicerka 1 - Biała skóra"
+	price: 1
+	unlock: 1
+	icon: "leather_01.paint.michaleczeq"
+	look: le_01
+	variant: highline
+	interior_model: "/vehicle/truck/upgrade/tapicerka/tapic_01_int.michaleczeq.pmd"
+	suitable_for[]: "highline.scania.streamline.cabin"
+}
+}

@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "xmas_ball_style1_1.michaleczeq.tobj"
+	texture_name : "texture"
+}

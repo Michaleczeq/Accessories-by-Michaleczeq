@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cmr.michaleczeq.tobj"
+	texture_name : "texture"
+}

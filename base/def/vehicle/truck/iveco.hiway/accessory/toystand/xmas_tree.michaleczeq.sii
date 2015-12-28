@@ -1,0 +1,16 @@
+SiiNunit
+{
+
+accessory_addon_data : xmastree_mic.iveco.hiway.toystand
+{
+	name: "Xmas Tree"
+	price: 115
+	unlock: 0
+	icon: "xmas_tree.michaleczeq"
+   
+	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
+	exterior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
+
+}
+
+}
