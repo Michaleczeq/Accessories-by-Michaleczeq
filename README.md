@@ -26,4 +26,4 @@ Jeżeli chcesz otworzyć modele w celach np. edycji, pobierz najnowszą wersję 
 Jeżeli chcesz przekonwertować zamieszczoną tu modyfikacje do formatu wspieranego przez ETS2, musisz zaopatrzyć się w specjalny program który znajdziesz pod linkiem zamieszczonym poniżej.  
 Kiedy już to zrobisz, należy w pliku `extra_mount.txt` podać ścieżkę do wcześniej pobranego archiwum, do folderu `base`.  
 
-[**Conversion Tools**](http://www.eurotrucksimulator2.com/conversion_tools.php)  
+- [**Conversion Tools**](http://www.eurotrucksimulator2.com/conversion_tools.php)  
