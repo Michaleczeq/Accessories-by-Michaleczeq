@@ -5,7 +5,7 @@ Modyfikacja ta dodaje do gry akcesoria do interioru.
 
 
 ### Lista Dodatków  
-Pozycje z przedrostkiem **[DLC]** oznaczają, że model nie działa bez **DLC Cabin Accessories**.  
+Pozycje z przedrostkiem **[DLC]** oznaczają, że model wymaga dodatku **DLC Cabin Accessories**.  
 
 - CMR  
 - Xmas Tree  
