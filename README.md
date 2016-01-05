@@ -3,9 +3,9 @@
 Modyfikacja ta dodaje do gry akcesoria do interioru.  
 ![promo_pic](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/blob/master/preview/promo_pict.jpg)  
 
-
 ### Lista Dodatków  
 Pozycje z przedrostkiem **[DLC]** oznaczają, że model wymaga dodatku **DLC Cabin Accessories**.  
+Jeżeli chcesz znać więcej informacji o każdym z nich, wejdź na [**WIKI**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/wiki). Zapraszam.
 
 - CMR  
 - Xmas Tree  
