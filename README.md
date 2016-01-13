@@ -24,6 +24,12 @@ Jeżeli chcesz otworzyć modele w celach np. edycji, pobierz najnowszą wersję 
 ### Konwertowanie modeli  
 
 Jeżeli chcesz przekonwertować zamieszczoną tu modyfikacje do formatu wspieranego przez ETS2, musisz zaopatrzyć się w specjalny program który znajdziesz pod linkiem zamieszczonym poniżej.  
-Kiedy już to zrobisz, należy w pliku `extra_mount.txt` podać ścieżkę do wcześniej pobranego archiwum, do folderu `base`.  
+Kiedy już to zrobisz, program ten należy wypakować (ciebie obchodzi TYLKO folder `conversion_tools`).  
+Po wypakowaniu w pliku `extra_mount.txt` podaj ścieżkę do pobranego archiwum moda, a dokadniej do folderu `base` oraz zapisz.  
+Gdy wszystko zostanie zrobione jak należy, wystarczy już tylko uruchomić plik `convert.cmd`.  
+Modyfikacja zostanie przekonwertowana do folderu `rsrc`.
+Przed każdym takim zabiegiem zaleca się usunięcie takowego folderu jeśli istnieje.  
+Zawartość folderu `rsrc` należy teraz spakować do archiwum `.zip`.  
+Takie archiwum jest już gotowe i możesz je wrzucić do folderu z modami.
 
 - [**Conversion Tools**](http://www.eurotrucksimulator2.com/conversion_tools.php)  
