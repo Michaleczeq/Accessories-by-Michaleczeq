@@ -3,7 +3,9 @@
 Modyfikacja ta dodaje do gry akcesoria do interioru.  
 ![promo_pic](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/blob/master/preview/promo_pict.jpg)  
 
-### Lista Dodatków  
+### Informacje ogólne  
+Aby modyfiacja działała, należy ją najpierw przekonwertować.  
+Jeżeli masz jakiekolwiek pytania, napisz to w temacie z modyfikacją bądź [**TUTAJ**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/issues).  
 Pozycje z przedrostkiem **[DLC]** oznaczają, że model wymaga dodatku **DLC Cabin Accessories**.  
 Jeżeli chcesz znać więcej informacji o każdym z nich, wejdź na [**WIKI**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/wiki). Zapraszam.
 
@@ -13,14 +15,14 @@ Jeżeli chcesz znać więcej informacji o każdym z nich, wejdź na [**WIKI**](h
 - **[DLC]** Rubik's cube  
 - **[DLC]** Snowman  
 
-### Otwieranie modeli  
+### Edycja modeli  
 
 Modyfikacja jest przystosowana pod wtyczkę dla Blendera od SCSu.  
 Jeżeli chcesz otworzyć modele w celach np. edycji, pobierz najnowszą wersję Blendera oraz plugin od SCSu.  
  
 - [**Blender**](https://www.blender.org/download/)  
 - [**SCS Blender Tools**](https://github.com/SCSSoftware/BlenderTools/releases)  
- 
+
 ### Konwertowanie modeli  
 
 Jeżeli chcesz przekonwertować zamieszczoną tu modyfikacje do formatu wspieranego przez ETS2, musisz zaopatrzyć się w specjalny program który znajdziesz pod linkiem zamieszczonym poniżej.  
@@ -30,6 +32,8 @@ Gdy wszystko zostanie zrobione jak należy, wystarczy już tylko uruchomić plik
 Modyfikacja zostanie przekonwertowana do folderu `rsrc`.
 Przed każdym takim zabiegiem zaleca się usunięcie takowego folderu jeśli istnieje.  
 Zawartość folderu `rsrc` należy teraz spakować do archiwum `.zip`.  
-Takie archiwum jest już gotowe i możesz je wrzucić do folderu z modami.
+Takie archiwum jest już gotowe i możesz je wrzucić do folderu z modami.  
+
+Wicej informacji o konwertowaniu (w języku ang.) znajdziesz oczywiście na tej samej stronie co program.
 
 - [**Conversion Tools**](http://www.eurotrucksimulator2.com/conversion_tools.php)  
