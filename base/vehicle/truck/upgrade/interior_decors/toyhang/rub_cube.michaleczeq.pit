@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.bfa9481"
     Type: "Trait"
     Name: "rub_cube.michaleczeq"
 }
@@ -20,8 +20,8 @@ Look {
     Name: "default"
     Material {
         Alias: "rub_cube"
-        Effect: "eut2.dif.spec.tsnmap.fx"
-        Flags: 0
+        Effect: "eut2.dif.spec.tsnmap"
+        Flags: 1
         AttributeCount: 5
         TextureCount: 2
         Attribute {
@@ -50,18 +50,18 @@ Look {
             Value: ( 0.0 )
         }
         Texture {
-            Tag: "texture[0]:texture_nmap"
-            Value: "/vehicle/truck/upgrade/interior_decors/toyhang/rub_cube_n.michaleczeq"
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toyhang/rub_cube.michaleczeq"
         }
         Texture {
-            Tag: "texture[1]:texture_base"
-            Value: "/vehicle/truck/upgrade/interior_decors/toyhang/rub_cube.michaleczeq"
+            Tag: "texture[1]:texture_nmap"
+            Value: "/vehicle/truck/upgrade/interior_decors/toyhang/rub_cube_n.michaleczeq"
         }
     }
     Material {
         Alias: "cube_c"
-        Effect: "eut2.dif.a.fx"
-        Flags: 0
+        Effect: "eut2.dif.a"
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -96,8 +96,8 @@ Look {
     }
     Material {
         Alias: "shadowonly"
-        Effect: "eut2.shadowonly.fx"
-        Flags: 0
+        Effect: "eut2.shadowonly"
+        Flags: 1
         AttributeCount: 1
         TextureCount: 0
         Attribute {

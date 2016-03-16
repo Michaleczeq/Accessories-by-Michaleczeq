@@ -6,14 +6,15 @@ Modyfikacja ta dodaje do gry akcesoria do interioru.
 ### Informacje ogólne  
 Aby modyfiacja działała, należy ją najpierw przekonwertować.  
 Jeżeli masz jakiekolwiek pytania, napisz to w temacie z modyfikacją bądź [**TUTAJ**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/issues).  
-Pozycje z przedrostkiem **[DLC]** oznaczają, że model wymaga dodatku **DLC Cabin Accessories**.  
+Pozycje z przedrostkiem **[DLC]** oznaczają, że model wymaga dodatku **DLC Cabin Accessories** lub **PC Gamer DLC**.  
 Jeżeli chcesz znać więcej informacji o każdym z nich, wejdź na [**WIKI**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/wiki). Zapraszam.
 
 - CMR  
 - Xmas Tree  
-- **[DLC]** Xmas Bubbles (8 variants)  
+- **[DLC]** CB Radio  
 - **[DLC]** Rubik's cube  
 - **[DLC]** Snowman  
+- **[DLC]** Xmas Bubbles (8 variants)  
 
 ### Edycja modeli  
 
@@ -26,7 +27,7 @@ Jeżeli chcesz otworzyć modele w celach np. edycji, pobierz najnowszą wersję 
 ### Konwertowanie modeli  
 
 Jeżeli chcesz przekonwertować zamieszczoną tu modyfikacje do formatu wspieranego przez ETS2, musisz zaopatrzyć się w specjalny program który znajdziesz pod linkiem zamieszczonym poniżej.  
-Kiedy już to zrobisz, program ten należy wypakować (ciebie obchodzi TYLKO folder `conversion_tools`).  
+Kiedy już to zrobisz, program ten należy wypakować.  
 Po wypakowaniu w pliku `extra_mount.txt` podaj ścieżkę do pobranego archiwum moda, a dokadniej do folderu `base` oraz zapisz.  
 Gdy wszystko zostanie zrobione jak należy, wystarczy już tylko uruchomić plik `convert.cmd`.  
 Modyfikacja zostanie przekonwertowana do folderu `rsrc`.

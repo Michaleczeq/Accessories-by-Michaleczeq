@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.0.76261ad"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.bfa9481"
     Type: "Trait"
     Name: "xmas_ball_forest.michaleczeq"
 }
@@ -21,7 +21,7 @@ Look {
     Material {
         Alias: "shadowonly"
         Effect: "eut2.shadowonly"
-        Flags: 0
+        Flags: 1
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -33,7 +33,7 @@ Look {
     Material {
         Alias: "xmas_bubbles_forest"
         Effect: "eut2.dif.spec.add.env"
-        Flags: 0
+        Flags: 1
         AttributeCount: 7
         TextureCount: 2
         Attribute {
@@ -83,7 +83,7 @@ Look {
     Material {
         Alias: "xmas_bubble_a_forest"
         Effect: "eut2.dif.spec.over"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {

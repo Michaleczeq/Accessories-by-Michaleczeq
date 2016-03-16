@@ -1,0 +1,26 @@
+[green]Akcesoria by Michaleczeq[normal]
+Modyfikacja dodająca do gry akcesoria dla ciągników.
+Część z nich wymaga posiadania [red]DLC Cabin Accessories/PC Gamer DLC![normal]
+
+Modele wykonane przez Michaleczeq za pomocą SCS Blender Tools.
+
+Lista akcesoriów:
+[orange]
+* CMR
+* Xmas Tree
+* [red][DLC][orange] CB Radio
+* [red][DLC][orange] Rubik's cube
+* [red][DLC][orange] Snowman
+* [red][DLC][orange] Xmas Bubbles (8 variants)
+[normal]
+
+Zmiany:
+[blue]2.0:[normal]
+* Dodano Xmas Tree oraz Xmas Bubbles
+* Zmieniono niektóre materiały i tekstury
+
+[blue]3.0:[normal]
+* Dodano CB Radio
+* Dodano niektóre pinezki na akcesoria z dodatku DLC Cabin Accessories
+* Zmieniono niektóre materiały i tekstury
+* Naprawiono błąd z brakiem niebieskich baniek

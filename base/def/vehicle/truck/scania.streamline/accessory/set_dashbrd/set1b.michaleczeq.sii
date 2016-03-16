@@ -1,0 +1,17 @@
+SiiNunit
+{
+accessory_addon_data : dasbrd_set1b.michaleczeq.scania.streamline.set_dashbrd
+{
+	name: "Dash + CB pin"
+	price: 1
+	unlock: 0
+	icon: "dashbrd_3a.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1b.michaleczeq.pmd"
+	interior_model_uk: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1b_uk.michaleczeq.pmd"
+	exterior_model: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1b.michaleczeq.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1b_uk.michaleczeq.pmd"
+	
+	suitable_for[]: "highline.scania.streamline.cabin"
+}
+}

@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.74.0 (hash: 000dfc0), SCS Blender Tools: 0.6.792edf5"
+    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.bfa9481"
     Type: "Trait"
     Name: "cmr.michaleczeq"
 }
@@ -20,8 +20,8 @@ Look {
     Name: "default"
     Material {
         Alias: "shadowonly"
-        Effect: "eut2.shadowonly.fx"
-        Flags: 0
+        Effect: "eut2.shadowonly"
+        Flags: 1
         AttributeCount: 1
         TextureCount: 0
         Attribute {
@@ -32,8 +32,8 @@ Look {
     }
     Material {
         Alias: "cmr"
-        Effect: "eut2.dif.spec.fx"
-        Flags: 0
+        Effect: "eut2.dif.spec"
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -68,8 +68,8 @@ Look {
     }
     Material {
         Alias: "klips"
-        Effect: "eut2.dif.spec.add.env.nofresnel.fx"
-        Flags: 0
+        Effect: "eut2.dif.spec.add.env.nofresnel"
+        Flags: 1
         AttributeCount: 6
         TextureCount: 2
         Attribute {
@@ -113,8 +113,8 @@ Look {
     }
     Material {
         Alias: "podklad"
-        Effect: "eut2.dif.spec.fx"
-        Flags: 0
+        Effect: "eut2.dif.spec"
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {

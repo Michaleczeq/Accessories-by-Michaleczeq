@@ -73,3 +73,44 @@ accessory_hookup_data : xmastree_mic.addon_hookup
 	model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
   	coll:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmc"
 }
+
+accessory_hookup_int_data : cb_radio.addon_hookup
+{
+	name: "CB Radio"
+	price: 1250
+	unlock: 5
+	icon: "cb_radio.michaleczeq"
+	suitable_for[]: "set_dashbrd"
+   
+  	model: "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio.michaleczeq.pmd"
+  	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio.michaleczeq.pmc"
+
+	data[]: .cb_radio_mic.phys_data
+	
+}
+
+physics_toy_data : .cb_radio_mic.phys_data
+{
+	phys_model:      "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio_micro.michaleczeq.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio_micro.michaleczeq.pmc"
+
+	toy_type:		"TT_rope"			# TT_rope, TT_double_rope, TT_joint
+	toy_mass:		0.20				# toy mass
+	linear_damping:		0.4				# damping of swinging of toy
+	linear_stiffness: 	0.8			# rope - influences rope springing
+
+	locator_hook_offset:	(-0.06755f, -0.01174f, 0.06006f)		# offset of connection point on hook against toy locator
+						#	 X			Z		   -Y
+	
+	# definitions valid only for toys with rope
+	rope_width:			0.008			# width of rope
+	rope_length:		0.23			# lengt of rope, in the case of double_rope, distance between hook and toy
+	rope_hook_offset:	0.0				# double_rope - distance between hooks, locator is in the middle
+	rope_toy_offset:	0.0				# double_rope - distance between rope tingles at toy
+	rope_resolution:	5				# number of inner nodes of rope, except end nodes with anchores
+	rope_linear_density:	0.5435		# density, i.e. weight of rope per 1 m of length
+	position_iterations:	4			# number of iterations in position solver
+	node_damping:		0.2				# rope node velocity damping
+  
+  rope_material: 		"/material/ropes/cable_black.michaleczeq.mat"
+}

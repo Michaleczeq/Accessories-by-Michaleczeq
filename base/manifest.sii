@@ -2,10 +2,10 @@ SiiNunit
 {
 # ".package_name" does not matter as the dot at the beginning of the file means that this unit is anonymous. 
 # Please keep this form to not make any conflicts with other mod packages (name collisions).
-mod_package : .accessory.michaleczeq.mmod {
+mod_package : .package_name {
 
     # Package version can be any string with any length.
-    package_version: "2.0.0"
+    package_version: "3.0.0"
 
     # Display name can be any string with any length.
     display_name: "Accessory by Michaleczeq"
@@ -21,6 +21,6 @@ mod_package : .accessory.michaleczeq.mmod {
     icon: "icon.michaleczeq.jpg"
 
     # Description file is a path relative to mod root directory.
-    description_file: "description.michaleczeq.txt"
+    description_file: "description.txt"
 }
 }

@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_data : dasbrd_set1.michaleczeq.renault.premium.set_dashbrd
+{
+	name: "Dash + CB pin"
+	price: 1
+	unlock: 0
+	icon: "dashbrd_3.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/renault_premium/dashbrd_set_1.michaleczeq.pmd"
+	interior_model_uk: "/vehicle/truck/upgrade/interior_set/renault_premium/dashbrd_set_1_uk.michaleczeq.pmd"
+	exterior_model: "/vehicle/truck/upgrade/interior_set/renault_premium/dashbrd_set_1.michaleczeq.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/renault_premium/dashbrd_set_1_uk.michaleczeq.pmd"
+}
+}

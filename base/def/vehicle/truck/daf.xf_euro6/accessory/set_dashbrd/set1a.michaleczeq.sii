@@ -1,0 +1,18 @@
+SiiNunit
+{
+accessory_addon_data : dasbrd_set1a.michaleczeq.daf.xf_euro6.set_dashbrd
+{
+	name: "Dash + CB pin"
+	price: 1
+	unlock: 0
+	icon: "dashbrd_3.dlc_toys"
+   
+	interior_model: "/vehicle/truck/upgrade/interior_set/daf_xf_euro6/dashbrd_set_1a.michaleczeq.pmd"
+	interior_model_uk: "/vehicle/truck/upgrade/interior_set/daf_xf_euro6/dashbrd_set_1a_uk.michaleczeq.pmd"
+	exterior_model: "/vehicle/truck/upgrade/interior_set/daf_xf_euro6/dashbrd_set_1a.michaleczeq.pmd"
+	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/daf_xf_euro6/dashbrd_set_1a_uk.michaleczeq.pmd"
+	
+	suitable_for[]: "superspace.daf.xf_euro6.cabin"
+
+}
+}

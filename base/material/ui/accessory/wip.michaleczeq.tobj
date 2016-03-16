@@ -1,5 +1,3 @@
 map	2d	wip.michaleczeq.tga
 addr	clamp_to_edge	clamp_to_edge
-nomips
-nocompress
-color_space linear
+usage ui
