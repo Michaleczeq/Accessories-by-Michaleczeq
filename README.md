@@ -6,15 +6,14 @@ Modyfikacja ta dodaje do gry akcesoria do interioru.
 ### Informacje ogólne  
 Aby modyfiacja działała, należy ją najpierw przekonwertować.  
 Jeżeli masz jakiekolwiek pytania, napisz to w temacie z modyfikacją bądź [**TUTAJ**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/issues).  
-Pozycje z przedrostkiem **[DLC]** oznaczają, że model wymaga dodatku **DLC Cabin Accessories** lub **PC Gamer DLC**.  
 Jeżeli chcesz znać więcej informacji o każdym z nich, wejdź na [**WIKI**](https://github.com/Michaleczeq/Accessories-by-Michaleczeq/wiki). Zapraszam.
 
 - CMR  
 - Xmas Tree  
-- **[DLC]** CB Radio  
-- **[DLC]** Rubik's cube  
-- **[DLC]** Snowman  
-- **[DLC]** Xmas Bubbles (8 variants)  
+- CB Radio  
+- Rubik's cube  
+- Snowman  
+- Xmas Bubbles (8 variants)  
 
 ### Edycja modeli  
 
