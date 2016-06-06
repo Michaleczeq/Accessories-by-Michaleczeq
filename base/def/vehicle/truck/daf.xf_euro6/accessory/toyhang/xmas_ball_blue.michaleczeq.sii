@@ -7,7 +7,7 @@ accessory_addon_int_data : xmas_ball.blue.daf.xf_euro6.toyhang
 
 	price: 100
 	unlock: 0
-	interior_model:  "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.dlc_toys.pmd"
+	interior_model:  "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.michaleczeq.pmd"
 	data[]: .xmas_ball.blue.phys_data
 }
 physics_toy_data : .xmas_ball.blue.phys_data
@@ -33,6 +33,6 @@ physics_toy_data : .xmas_ball.blue.phys_data
 	position_iterations:	4			# number of iterations in position solver
 	node_damping:		0.2				# rope node velocity damping
   
-  rope_material: 		"/material/ropes/rope_black.dlc_toys.mat"
+  rope_material: 		"/material/ropes/rope_black.mat"
 }
 }
