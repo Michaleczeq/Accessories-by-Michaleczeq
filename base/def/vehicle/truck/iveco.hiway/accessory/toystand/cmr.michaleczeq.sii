@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_addon_data : cmr.iveco.hiway.toystand
+accessory_addon_int_data : cmr.iveco.hiway.toystand
 {
 	name: "CMR"
 	price: 50
@@ -8,6 +8,5 @@ accessory_addon_data : cmr.iveco.hiway.toystand
 	icon: "cmr.michaleczeq"
    
 	interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
-	exterior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
 }
 }

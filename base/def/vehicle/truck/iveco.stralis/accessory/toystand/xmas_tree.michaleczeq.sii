@@ -1,7 +1,6 @@
 SiiNunit
 {
-
-accessory_addon_data : xmastree_mic.iveco.stralis.toystand
+accessory_addon_int_data : xmastree_mic.iveco.stralis.toystand
 {
 	name: "Xmas Tree"
 	price: 115
@@ -9,8 +8,6 @@ accessory_addon_data : xmastree_mic.iveco.stralis.toystand
 	icon: "xmas_tree.michaleczeq"
    
 	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
-	exterior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
-
+	coll:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmc"
 }
-
 }

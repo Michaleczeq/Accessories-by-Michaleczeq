@@ -9,6 +9,7 @@ accessory_addon_int_data : snowman_mic.iveco.stralis.toystand
 	icon: "snowman.michaleczeq"
    
 	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_b.michaleczeq.pmd"
+	coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_b.michaleczeq.pmc"
 
 	data[]: .snowman_h.phys_data
 	data[]: .snowman_lh.phys_data

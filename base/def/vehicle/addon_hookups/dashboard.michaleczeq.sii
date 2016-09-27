@@ -18,7 +18,7 @@ accessory_hookup_int_data : snowman_mic.addon_hookup
 physics_toy_data : .snowman_h.phys_data
 {
 	phys_model:     "/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmd"
-	phys_model_coll:"/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmc"
+	phys_model_coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmc"
   
 	toy_type:	 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
 	toy_mass:	 	0.4			# toy mass
@@ -33,7 +33,7 @@ physics_toy_data : .snowman_h.phys_data
 physics_toy_data : .snowman_lh.phys_data
 {
 	phys_model:     "/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmd"
-	phys_model_coll:"/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmc"
+	phys_model_coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmc"
   
 	toy_type:	 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
 	toy_mass:	 	0.2			# toy mass
@@ -49,7 +49,7 @@ physics_toy_data : .snowman_lh.phys_data
 physics_toy_data : .snowman_rh.phys_data
 {
 	phys_model:     "/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmd"
-	phys_model_coll:"/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmc"
+	phys_model_coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmc"
   
 	toy_type:	 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
 	toy_mass:	 	0.2			# toy mass
@@ -62,7 +62,7 @@ physics_toy_data : .snowman_rh.phys_data
 	#	In blender pos:	(X,	   Z,	 Y)
 }
 
-accessory_hookup_data : xmastree_mic.addon_hookup
+accessory_hookup_int_data : xmastree_mic.addon_hookup
 {
 	name: "Xmas Tree"
 	price: 115

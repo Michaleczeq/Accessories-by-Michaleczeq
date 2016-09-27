@@ -1,0 +1,112 @@
+# Look Names:
+#	default
+#
+# Variant Names:
+#	default
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.4.4ae6843"
+    Type: "Trait"
+    Name: "cups_1.michaleczeq"
+}
+Global {
+    LookCount: 1
+    VariantCount: 1
+    PartCount: 1
+    MaterialCount: 3
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "kubek_zebra"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.685734748840332 0.685734748840332 0.685734748840332 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.8004282712936401 0.8004282712936401 0.8004282712936401 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.25282201170921326 0.25282201170921326 0.25282201170921326 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+}
+Variant {
+    Name: "default"
+    Part {
+        Name: "defaultpart"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+

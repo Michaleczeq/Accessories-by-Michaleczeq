@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_int_data : cups_0_0_05.man.tgx.toystand
+{
+	name: "Mug - Rhombus design"
+	icon: "cups/cups_0_1_05.michaleczeq"
+	price: 80
+	unlock: 1
+	
+	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
+	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
+	variant: rhombus
+	look: gray
+}
+}

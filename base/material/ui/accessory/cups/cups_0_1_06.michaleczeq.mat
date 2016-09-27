@@ -1,0 +1,5 @@
+material : "ui"
+{
+	texture : "cups_0_1_06.michaleczeq.tobj"
+	texture_name : "texture"
+}

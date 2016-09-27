@@ -1,0 +1,735 @@
+# Look Names:
+#	default
+#	coffe
+#	cream
+#	red
+#	black
+#	gray
+#	green
+#	blue
+#
+# Variant Names:
+#	rhombus
+#	triangle
+#
+Header {
+    FormatVersion: 1
+    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.4.4ae6843"
+    Type: "Trait"
+    Name: "cups_0.michaleczeq"
+}
+Global {
+    LookCount: 8
+    VariantCount: 2
+    PartCount: 3
+    MaterialCount: 3
+}
+Look {
+    Name: "default"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "coffe"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.548865795135498 0.45882731676101685 0.33433347940444946 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "cream"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.8549996614456177 0.7886468768119812 0.6669094562530518 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 50.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "red"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.4292367696762085 0.008751851506531239 0.010058323852717876 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "black"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.019999999552965164 0.019999999552965164 0.019999999552965164 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "gray"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.30320584774017334 0.30320584774017334 0.30320584774017334 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "green"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.05162443220615387 0.4198896884918213 0.03887476772069931 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Look {
+    Name: "blue"
+    Material {
+        Alias: "shadow"
+        Effect: "eut2.shadowonly"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 0
+        Attribute {
+            Format: FLOAT
+            Tag: "shadow_bias"
+            Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "cup_shadow"
+        Effect: "eut2.decalshadow"
+        Flags: 1
+        AttributeCount: 1
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
+        }
+    }
+    Material {
+        Alias: "kubek_0"
+        Effect: "eut2.dif.spec.add.env.indenv"
+        Flags: 1
+        AttributeCount: 7
+        TextureCount: 2
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 0.08800290524959564 0.20016835629940033 0.4768458604812622 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.6616861820220947 0.6616861820220947 0.6616861820220947 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 60.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.27383846044540405 0.27383846044540405 0.27383846044540405 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "fresnel"
+            Value: ( 0.0 0.6000000238418579 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq"
+        }
+        Texture {
+            Tag: "texture[1]:texture_reflection"
+            Value: "/material/environment/vehicle_reflection"
+        }
+    }
+}
+Variant {
+    Name: "rhombus"
+    Part {
+        Name: "defaultpart"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "rhombus"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "triangle"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+}
+Variant {
+    Name: "triangle"
+    Part {
+        Name: "defaultpart"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "rhombus"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
+        }
+    }
+    Part {
+        Name: "triangle"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 1 )
+        }
+    }
+}
+

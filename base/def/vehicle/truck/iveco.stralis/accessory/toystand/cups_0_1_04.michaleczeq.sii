@@ -1,0 +1,15 @@
+SiiNunit
+{
+accessory_addon_int_data : cups_0_1_04.iveco.stralis.toystand
+{
+	name: "Mug - Triangle design"
+	icon: "cups/cups_0_1_04.michaleczeq"
+	price: 80
+	unlock: 1
+	
+	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
+	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
+	variant: triangle
+	look: black
+}
+}
