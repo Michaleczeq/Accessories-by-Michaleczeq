@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_data : wolf01.volvo.fh16_2012.intlight_bck
+{
+@include "/def/vehicle/truck/shared/accessory/intlight_bck/wolf01_settings.michaleczeq.sui"
+}
+}

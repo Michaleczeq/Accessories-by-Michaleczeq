@@ -1,0 +1,10 @@
+SiiNunit
+{
+accessory_addon_int_data : cups_0_0_03.scania.r_2016.toystand
+{
+@include "/def/vehicle/truck/shared/accessory/toystand/cups_0_0_settings.michaleczeq.sui"
+
+	icon: "cups/cups_0_1_03.michaleczeq"
+	look: red
+}
+}

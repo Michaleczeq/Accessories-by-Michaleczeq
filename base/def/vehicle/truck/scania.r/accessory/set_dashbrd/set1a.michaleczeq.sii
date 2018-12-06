@@ -1,6 +1,6 @@
 SiiNunit
 {
-accessory_addon_data : dasbrd_set1a.michaleczeq.scania.r.set_dashbrd
+accessory_addon_int_data : dasbrd_set1a.michaleczeq.scania.r.set_dashbrd
 {
 	name: "Dash + CB pin"
 	price: 1
@@ -9,8 +9,6 @@ accessory_addon_data : dasbrd_set1a.michaleczeq.scania.r.set_dashbrd
    
 	interior_model: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1a.michaleczeq.pmd"
 	interior_model_uk: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1a_uk.michaleczeq.pmd"
-	exterior_model: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1a.michaleczeq.pmd"
-	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/scania_r/dashbrd_set_1a_uk.michaleczeq.pmd"
 	
 	suitable_for[]: "normal.scania.r.cabin"
 	suitable_for[]: "topline.scania.r.cabin"

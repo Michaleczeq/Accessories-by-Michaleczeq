@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_addon_int_data : cmr.volvo.fh_fh16.toystand
+{
+@include "/def/vehicle/truck/shared/accessory/toystand/cmr_settings.michaleczeq.sui"
+
+	interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
+}
+}

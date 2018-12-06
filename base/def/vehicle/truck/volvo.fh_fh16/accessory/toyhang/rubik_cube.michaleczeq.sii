@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_int_data : rubik_cube.volvo.fh_fh16.toyhang
+{
+@include "/def/vehicle/truck/shared/accessory/toyhang/rubik_cube_settings.michaleczeq.sui"
+}
+}

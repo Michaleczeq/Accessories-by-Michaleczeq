@@ -9,8 +9,6 @@ accessory_addon_data : dasbrd_set1b.michaleczeq.daf.xf.set_dashbrd
    
 	interior_model: "/vehicle/truck/upgrade/interior_set/daf_xf/dashbrd_set_1b.michaleczeq.pmd"
 	interior_model_uk: "/vehicle/truck/upgrade/interior_set/daf_xf/dashbrd_set_1b_uk.michaleczeq.pmd"
-	exterior_model: "/vehicle/truck/upgrade/interior_set/daf_xf/dashbrd_set_1b.michaleczeq.pmd"
-	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/daf_xf/dashbrd_set_1b_uk.michaleczeq.pmd"
 	
 	suitable_for[]: "space_cab.daf.xf.cabin"
 	suitable_for[]: "s_cab_plus.daf.xf.cabin"

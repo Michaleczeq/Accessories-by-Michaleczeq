@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_data : wolf01.scania.r_2016.intlight_bck
+{
+@include "/def/vehicle/truck/shared/accessory/intlight_bck/wolf01_scania_2016_settings.michaleczeq.sui"
+}
+}

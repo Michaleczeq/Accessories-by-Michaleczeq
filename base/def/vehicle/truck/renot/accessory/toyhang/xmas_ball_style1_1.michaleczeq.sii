@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_int_data : xmas_ball.style1_1.renot.toyhang
+{
+@include "/def/vehicle/truck/shared/accessory/toyhang/xmas_ball_style1_1_settings.michaleczeq.sui"
+}
+}

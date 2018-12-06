@@ -2,7 +2,7 @@
 
 accessory_hookup_int_data : cups_0_0_00.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_00.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -15,7 +15,7 @@ accessory_hookup_int_data : cups_0_0_00.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_01.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_01.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -28,7 +28,7 @@ accessory_hookup_int_data : cups_0_0_01.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_02.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_02.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -41,7 +41,7 @@ accessory_hookup_int_data : cups_0_0_02.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_03.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_03.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -54,7 +54,7 @@ accessory_hookup_int_data : cups_0_0_03.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_04.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_04.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -67,7 +67,7 @@ accessory_hookup_int_data : cups_0_0_04.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_05.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_05.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -80,7 +80,7 @@ accessory_hookup_int_data : cups_0_0_05.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_06.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_06.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -93,7 +93,7 @@ accessory_hookup_int_data : cups_0_0_06.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_0_07.michaleczeq.addon_hookup
 {
-	name: "Mug - Rhombus design"
+	name: "@@michaleczeq_acc_mug_rhombus@@"
 	icon: "cups/cups_0_1_07.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -106,7 +106,7 @@ accessory_hookup_int_data : cups_0_0_07.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_00.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_00.michaleczeq"	
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -119,7 +119,7 @@ accessory_hookup_int_data : cups_0_1_00.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_01.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_01.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -132,7 +132,7 @@ accessory_hookup_int_data : cups_0_1_01.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_02.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_02.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -145,7 +145,7 @@ accessory_hookup_int_data : cups_0_1_02.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_03.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_03.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -158,7 +158,7 @@ accessory_hookup_int_data : cups_0_1_03.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_04.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_04.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -171,7 +171,7 @@ accessory_hookup_int_data : cups_0_1_04.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_05.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_05.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -184,7 +184,7 @@ accessory_hookup_int_data : cups_0_1_05.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_06.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_06.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -197,7 +197,7 @@ accessory_hookup_int_data : cups_0_1_06.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_0_1_07.michaleczeq.addon_hookup
 {
-	name: "Mug - Triangle design"
+	name: "@@michaleczeq_acc_mug_triangle@@"
 	icon: "cups/cups_0_1_07.michaleczeq"
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_0.michaleczeq.pmc"
@@ -210,7 +210,7 @@ accessory_hookup_int_data : cups_0_1_07.michaleczeq.addon_hookup
 
 accessory_hookup_int_data : cups_1_0_00.michaleczeq.addon_hookup
 {
-	name: "Mug - Zebra design"
+	name: "@@michaleczeq_acc_mug_zebra@@"
 	icon: "cups/cups_1_0_00.michaleczeq"	
 	model: "/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq.pmd"
 	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq.pmc"

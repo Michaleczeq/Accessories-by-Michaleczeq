@@ -1,0 +1,16 @@
+	name: "@@michaleczeq_acc_xmas_ball_brocade1@@"
+	icon: "xmas_ball_style1_1.michaleczeq"
+
+	price: 50
+	unlock: 0
+	interior_model:  "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.michaleczeq.pmd"
+	data[]: .xmas_ball.style1_1.phys_data
+}
+physics_toy_data : .xmas_ball.style1_1.phys_data
+{
+	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_style1.michaleczeq.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_style1.michaleczeq.pmc"
+	
+	phys_model_variant: yell_purp
+	
+@include "/def/vehicle/truck/shared/accessory/toyhang/xmas_ball_physics_settings.michaleczeq.sui"

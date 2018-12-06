@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_int_data : xmastree_mic.scania.r_2016.toystand
+{
+@include "/def/vehicle/truck/shared/accessory/toystand/xmas_tree_settings.michaleczeq.sui"
+}
+}

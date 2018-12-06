@@ -1,13 +1,9 @@
 SiiNunit
 {
-accessory_addon_data : cmr.renault.premium.toystand
+accessory_addon_int_data : cmr.renault.premium.toystand
 {
-	name: "CMR"
-	price: 50
-	unlock: 0
-	icon: "cmr.michaleczeq"
-   
+@include "/def/vehicle/truck/shared/accessory/toystand/cmr_settings.michaleczeq.sui"
+
 	interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
-	exterior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
 }
 }

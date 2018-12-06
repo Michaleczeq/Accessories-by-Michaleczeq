@@ -9,8 +9,6 @@ accessory_addon_data : dasbrd_set1b.michaleczeq.man.tgx.set_dashbrd
 
 	interior_model: "/vehicle/truck/upgrade/interior_set/man_tgx/dashbrd_set_1b.michaleczeq.pmd"
 	interior_model_uk: "/vehicle/truck/upgrade/interior_set/man_tgx/dashbrd_set_1b_uk.michaleczeq.pmd"
-	exterior_model: "/vehicle/truck/upgrade/interior_set/man_tgx/dashbrd_set_1b.michaleczeq.pmd"
-	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/man_tgx/dashbrd_set_1b_uk.michaleczeq.pmd"
 	
 	suitable_for[]: "xl_cab.man.tgx.cabin"
 	suitable_for[]: "xlx_cab.man.tgx.cabin"

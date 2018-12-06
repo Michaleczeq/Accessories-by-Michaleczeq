@@ -14,6 +14,7 @@ Jeżeli chcesz znać więcej informacji o każdym z nich, wejdź na [**WIKI**](h
 - Rubik's cube  
 - Snowman  
 - Xmas Bubbles (8 variants)  
+- Wolf Head  
 
 ### Edycja modeli  
 

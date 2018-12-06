@@ -1,0 +1,58 @@
+	name: "@@michaleczeq_acc_snowman@@"
+	price: 115
+	unlock: 0
+	icon: "snowman.michaleczeq"
+   
+	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_b.michaleczeq.pmd"
+	coll:			"/vehicle/truck/upgrade/interior_decors/toystand/snowman_b.michaleczeq.pmc"
+
+	data[]: .snowman_h.phys_data
+	data[]: .snowman_lh.phys_data
+	data[]: .snowman_rh.phys_data
+}
+
+physics_toy_data : .snowman_h.phys_data
+{
+	phys_model: 		"/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmd"
+	phys_model_coll: 	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmc"
+	
+	toy_type: 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 	0.4				# toy mass
+	locator_hook_offset:	(0.0f, 0.091f, 0.000f)	# offset of connection point on hook against toy locator
+	
+	# definitions applied only to toys with joint
+	angular_stiffness:	(250.0, 250.0)		# joint - together with angular damping influences frequency and amplitude of oscilation	Tłumienie
+	angular_damping:	(7.0, 7.0)			# joint - together with angular stiffness influences frequency and amplitude of oscilation		Sztywność
+	angular_amplitude:	(5.0, 15.0, 0.0)	# joint - maximal deflection agains equilibrium position
+}
+
+physics_toy_data : .snowman_lh.phys_data
+{
+	phys_model: 		"/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmd"
+	phys_model_coll: 	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmc"
+	
+	toy_type: 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 	0.2				# toy mass
+	locator_hook_offset:	(-0.02565f, 0.0827f, 0.000f)	# offset of connection point on hook against toy locator
+	
+	# definitions applied only to toys with joint
+	angular_stiffness:	(250.0, 250.0)		# joint - together with angular damping influences frequency and amplitude of oscilation	Tłumienie
+	angular_damping:	(7.0, 7.0)			# joint - together with angular stiffness influences frequency and amplitude of oscilation		Sztywność
+	angular_amplitude:	(10.0, 20.0, 0.0)	# joint - maximal deflection agains equilibrium position
+	#	In blender pos:	(X,	   Z,	 Y)
+}
+
+physics_toy_data : .snowman_rh.phys_data
+{
+	phys_model: 		"/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmd"
+	phys_model_coll: 	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmc"
+	
+	toy_type: 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 	0.2				# toy mass
+	locator_hook_offset:	(0.02573f, 0.0827f, 0.000f)	# offset of connection point on hook against toy locator
+	
+	# definitions applied only to toys with joint
+	angular_stiffness:	(250.0, 250.0)		# joint - together with angular damping influences frequency and amplitude of oscilation	Tłumienie
+	angular_damping:	(7.0, 7.0)			# joint - together with angular stiffness influences frequency and amplitude of oscilation		Sztywność
+	angular_amplitude:	(10.0, 20.0, 0.0)	# joint - maximal deflection agains equilibrium position
+	#	In blender pos:	(X,	   Z,	 Y)

@@ -1,0 +1,14 @@
+	name: "@@michaleczeq_acc_xmas_ball_forest@@"
+	icon: "xmas_ball_forest.michaleczeq"
+
+	price: 100
+	unlock: 0
+	interior_model:  "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.michaleczeq.pmd"
+	data[]: .xmas_ball.forest.phys_data
+}
+physics_toy_data : .xmas_ball.forest.phys_data
+{
+	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_forest.michaleczeq.pmd"
+	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_forest.michaleczeq.pmc"
+
+@include "/def/vehicle/truck/shared/accessory/toyhang/xmas_ball_physics_settings.michaleczeq.sui"

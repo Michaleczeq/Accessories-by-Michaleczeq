@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_int_data : xmas_ball.forest.renot.toyhang
+{
+@include "/def/vehicle/truck/shared/accessory/toyhang/xmas_ball_forest_settings.michaleczeq.sui"
+}
+}

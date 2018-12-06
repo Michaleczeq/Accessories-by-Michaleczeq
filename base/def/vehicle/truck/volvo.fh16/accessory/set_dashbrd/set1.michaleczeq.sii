@@ -9,7 +9,5 @@ accessory_addon_data : dasbrd_set1a.michaleczeq.volvo.fh16.set_dashbrd
    
 	interior_model: "/vehicle/truck/upgrade/interior_set/volvo_fh16/dashbrd_set_1.michaleczeq.pmd"
 	interior_model_uk: "/vehicle/truck/upgrade/interior_set/volvo_fh16/dashbrd_set_1_uk.michaleczeq.pmd"
-	exterior_model: "/vehicle/truck/upgrade/interior_set/volvo_fh16/dashbrd_set_1.michaleczeq.pmd"
-	exterior_model_uk: "/vehicle/truck/upgrade/interior_set/volvo_fh16/dashbrd_set_1_uk.michaleczeq.pmd"
 }
 }

@@ -1,0 +1,9 @@
+SiiNunit
+{
+accessory_addon_int_data : cmr.scania.r_2016.toystand
+{
+@include "/def/vehicle/truck/shared/accessory/toystand/cmr_settings.michaleczeq.sui"
+
+	interior_model: "/vehicle/truck/upgrade/interior_decors/toystand/cmr.michaleczeq.pmd"
+}
+}

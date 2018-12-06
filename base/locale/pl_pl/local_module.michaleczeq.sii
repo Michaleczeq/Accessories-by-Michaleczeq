@@ -1,0 +1,55 @@
+SiiNunit
+{
+localization_db : .localization
+{
+	
+	key[]: "michaleczeq_acc_snowman"
+	val[]: "Bałwan"
+	
+	key[]: "michaleczeq_acc_xmas_tree"
+	val[]: "Choinka"
+	
+	key[]: "michaleczeq_acc_cb_radio"
+	val[]: "CB Radio"
+	
+	key[]: "michaleczeq_acc_rubik_cube"
+	val[]: "Kostka Rubika"
+		
+	key[]: "michaleczeq_acc_led_wolf_head"
+	val[]: "Głowa Wilka"
+	
+	key[]: "michaleczeq_acc_mug_rhombus"
+	val[]: "Kubek - W kształt rombów"
+	
+	key[]: "michaleczeq_acc_mug_triangle"
+	val[]: "Kubek - W kształt trójkątów"
+	
+	key[]: "michaleczeq_acc_mug_zebra"
+	val[]: "Kubek - W czarne paski"
+	
+	key[]: "michaleczeq_acc_xmas_ball_red"
+	val[]: "Bańka - Czerwona"
+	
+	key[]: "michaleczeq_acc_xmas_ball_green"
+	val[]: "Bańka - Zielona"
+	
+	key[]: "michaleczeq_acc_xmas_ball_blue"
+	val[]: "Bańka - Niebieska"
+	
+	key[]: "michaleczeq_acc_xmas_ball_daisy1"
+	val[]: "Bańka - Rosnąca stokrotka ver.1"
+	
+	key[]: "michaleczeq_acc_xmas_ball_daisy2"
+	val[]: "Bańka - Rosnąca stokrotka ver.2"
+	
+	key[]: "michaleczeq_acc_xmas_ball_brocade1"
+	val[]: "Bańka - Brokatowa Fala ver.1"
+	
+	key[]: "michaleczeq_acc_xmas_ball_brocade2"
+	val[]: "Bańka - Brokatowa Fala ver.2"
+	
+	key[]: "michaleczeq_acc_xmas_ball_forest"
+	val[]: "Bańka - Motyw lasu"
+	
+}
+}

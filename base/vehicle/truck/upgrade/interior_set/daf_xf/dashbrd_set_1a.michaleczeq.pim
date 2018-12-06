@@ -1,6 +1,6 @@
 Header {
     FormatVersion: 5
-    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.4.4ae6843"
+    Source: "Blender 2.79.0 (hash: f4dc9f9d68b), SCS Blender Tools: 1.11.2032583"
     Type: "Model"
     Name: "dashbrd_set_1a.michaleczeq"
 }
@@ -27,50 +27,50 @@ Piece {
     Stream {
         Format: FLOAT3
         Tag: "_POSITION"
-        0    ( &3d91dfba  &be901dae  &3cacf9b0 )
-        1    ( &bd91dfe8  &be2a8526  &3cacf9a7 )
-        2    ( &bd91dfe8  &be901dae  &3cacf9a5 )
-        3    ( &3d91dfba  &be2a8526  &3cacf9b2 )
-        4    ( &3d91dfba  &be2a8526  &3cacf9b2 )
-        5    ( &bd91dfe8  &be2a8526  &bcacf9d3 )
-        6    ( &bd91dfe8  &be2a8526  &3cacf9a7 )
-        7    ( &3d91dfba  &be2a8526  &bcacf9c8 )
-        8    ( &3d91dfba  &be2a8526  &bcacf9c8 )
-        9    ( &bd91dfe8  &be901dae  &bcacf9d5 )
-        10   ( &bd91dfe8  &be2a8526  &bcacf9d3 )
-        11   ( &3d91dfba  &be901dae  &bcacf9ca )
-        12   ( &3d91dfba  &be901dae  &bcacf9ca )
-        13   ( &bd91dfe8  &be901dae  &3cacf9a5 )
-        14   ( &bd91dfe8  &be901dae  &bcacf9d5 )
-        15   ( &3d91dfba  &be901dae  &3cacf9b0 )
-        16   ( &3d91dfba  &be901dae  &bcacf9ca )
-        17   ( &3d91dfba  &be2a8526  &3cacf9b2 )
-        18   ( &3d91dfba  &be901dae  &3cacf9b0 )
-        19   ( &3d91dfba  &be2a8526  &bcacf9c8 )
-        20   ( &bd91dfe8  &be901dae  &3cacf9a5 )
-        21   ( &bd91dfe8  &be2a8526  &bcacf9d3 )
-        22   ( &bd91dfe8  &be901dae  &bcacf9d5 )
-        23   ( &bd91dfe8  &be2a8526  &3cacf9a7 )
+        0    ( &3d91dfc2  &be901dae  &3cacf99f )
+        1    ( &bd91dfe0  &be2a8527  &3cacf99a )
+        2    ( &bd91dfe0  &be901dae  &3cacf994 )
+        3    ( &3d91dfc2  &be2a8527  &3cacf9a5 )
+        4    ( &3d91dfc2  &be2a8527  &3cacf9a5 )
+        5    ( &bd91dfe0  &be2a8527  &bcacf9e0 )
+        6    ( &bd91dfe0  &be2a8527  &3cacf99a )
+        7    ( &3d91dfc2  &be2a8527  &bcacf9d5 )
+        8    ( &3d91dfc2  &be2a8527  &bcacf9d5 )
+        9    ( &bd91dfe0  &be901dae  &bcacf9e6 )
+        10   ( &bd91dfe0  &be2a8527  &bcacf9e0 )
+        11   ( &3d91dfc2  &be901dae  &bcacf9db )
+        12   ( &3d91dfc2  &be901dae  &bcacf9db )
+        13   ( &bd91dfe0  &be901dae  &3cacf994 )
+        14   ( &bd91dfe0  &be901dae  &bcacf9e6 )
+        15   ( &3d91dfc2  &be901dae  &3cacf99f )
+        16   ( &3d91dfc2  &be901dae  &bcacf9db )
+        17   ( &3d91dfc2  &be2a8527  &3cacf9a5 )
+        18   ( &3d91dfc2  &be901dae  &3cacf99f )
+        19   ( &3d91dfc2  &be2a8527  &bcacf9d5 )
+        20   ( &bd91dfe0  &be901dae  &3cacf994 )
+        21   ( &bd91dfe0  &be2a8527  &bcacf9e0 )
+        22   ( &bd91dfe0  &be901dae  &bcacf9e6 )
+        23   ( &bd91dfe0  &be2a8527  &3cacf99a )
     }
     Stream {
         Format: FLOAT3
         Tag: "_NORMAL"
-        0    ( &b41a6f32  &b325e3d5  &3f800000 )
-        1    ( &b41a6f32  &b2e8780e  &3f800000 )
-        2    ( &b41a6f2f  &32288bd0  &3f800000 )
+        0    ( &b41a6f32  &b3d6ebbe  &3f800000 )
+        1    ( &b41a6f32  &b3e77902  &3f800000 )
+        2    ( &b41a6f2f  &b40e21ab  &3f800000 )
         3    ( &b41a6f33  &b3a22169  &3f800000 )
-        4    ( &33318d2f  &3f800000  &33a22169 )
-        5    ( &321f943d  &3f800000  &33a22169 )
+        4    ( &33318d2e  &3f800000  &33a22169 )
+        5    ( &321f943e  &3f800000  &33a22169 )
         6    ( &00000000  &3f800000  &33a22169 )
-        7    ( &3359723f  &3f800000  &33a22169 )
-        8    ( &341a6f32  &333993a0  &bf800000 )
-        9    ( &341a6f32  &335aae2a  &bf800000 )
+        7    ( &3359723d  &3f800000  &33a22169 )
+        8    ( &341a6f32  &33e77902  &bf800000 )
+        9    ( &341a6f32  &33d6ebbe  &bf800000 )
         10   ( &341a6f33  &33a22169  &bf800000 )
-        11   ( &341a6f2f  &329ffdf2  &bf800000 )
-        12   ( &34835b0c  &bf800000  &b3a22169 )
-        13   ( &b446b889  &bf800000  &b3a22169 )
-        14   ( &b4a6399e  &bf800000  &b3a22169 )
-        15   ( &34c63865  &bf800000  &b3a22169 )
+        11   ( &341a6f2f  &340e21ab  &bf800000 )
+        12   ( &34835b0e  &bf800000  &b3a22169 )
+        13   ( &b446b887  &bf800000  &b3a22169 )
+        14   ( &b4a6399d  &bf800000  &b3a22169 )
+        15   ( &34c63868  &bf800000  &b3a22169 )
         16   ( &3f800000  &00000000  &00000000 )
         17   ( &3f800000  &00000000  &00000000 )
         18   ( &3f800000  &00000000  &00000000 )
@@ -161,24 +161,24 @@ Part {
     Locators: 0 1 2
 }
 Locator {
-    Name: "slot_3"
+    Name: "slot_1"
     Index: 0
-    Position: ( &bded8372  &3f2919e6  &3e5d1294 )
-    Rotation: ( &3f7f0023  &3d358377  &bd8bb43b  &bd0c77d5 )
-    Scale: ( &3f800000  &3f800000  &3f800000 )
+    Position: ( &bdbbe418  &32029824  &bb031528 )
+    Rotation: ( &3e05a816  &32752a40  &3f7dcf59  &3407bbb6 )
+    Scale: ( &3f800005  &3f800001  &3f800003 )
 }
 Locator {
     Name: "slot_2"
     Index: 1
-    Position: ( &3dbb8321  &b308a006  &bb831255 )
-    Rotation: ( &3e05a897  &b366b10b  &bf7dcf55  &b2caa9ad )
-    Scale: ( &3f800002  &3f800001  &3f800001 )
+    Position: ( &3dbb8328  &b29d67e9  &bb831288 )
+    Rotation: ( &3e05a87d  &b37529b0  &bf7dcf56  &b2d5cd41 )
+    Scale: ( &3f800004  &3f800001  &3f800003 )
 }
 Locator {
-    Name: "slot_1"
+    Name: "slot_3"
     Index: 2
-    Position: ( &bdbbe41f  &b052b7b6  &bb03144c )
-    Rotation: ( &3e05a84a  &329aeecf  &3f7dcf59  &34072c9b )
-    Scale: ( &3f800004  &3f800002  &3f800001 )
+    Position: ( &bded8368  &3f2c3511  &3e5c7258 )
+    Rotation: ( &3f7f24fd  &3d2debb6  &bd8e1925  &bbf40c9e )
+    Scale: ( &3f800000  &3f800000  &3f800000 )
 }
 

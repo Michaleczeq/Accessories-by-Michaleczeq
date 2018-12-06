@@ -1,0 +1,6 @@
+	name: "@@michaleczeq_acc_led_wolf_head@@"
+	price: 5240
+	unlock: 2
+	interior_model: "/vehicle/truck/upgrade/intlight_bck/michaleczeq/wolf01.michaleczeq.pmd"
+	exterior_model: "/vehicle/truck/upgrade/intlight_bck/michaleczeq/wolf01.michaleczeq.pmd"
+	icon: "wolf_head.michaleczeq"

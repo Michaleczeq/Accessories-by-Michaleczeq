@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_int_data : xmas_ball.style2_2.volvo.fh_fh16.toyhang
+{
+@include "/def/vehicle/truck/shared/accessory/toyhang/xmas_ball_style2_2_settings.michaleczeq.sui"
+}
+}

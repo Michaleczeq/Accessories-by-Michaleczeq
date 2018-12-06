@@ -2,12 +2,6 @@ SiiNunit
 {
 accessory_addon_int_data : cups_1_0_00.iveco.hiway.toystand
 {
-	name: "Mug - Zebra design"
-	icon: "cups/cups_1_0_00.michaleczeq"
-	price: 90
-	unlock: 1
-	
-	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq.pmd"
-	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq.pmc"
+@include "/def/vehicle/truck/shared/accessory/toystand/cups_1_0_settings.michaleczeq.sui"
 }
 }

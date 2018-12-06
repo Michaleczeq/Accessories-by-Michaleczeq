@@ -1,0 +1,55 @@
+SiiNunit
+{
+localization_db : .localization
+{
+	
+	key[]: "michaleczeq_acc_snowman"
+	val[]: "Snowman"
+	
+	key[]: "michaleczeq_acc_xmas_tree"
+	val[]: "Xmas Tree"
+	
+	key[]: "michaleczeq_acc_cb_radio"
+	val[]: "CB Radio"
+	
+	key[]: "michaleczeq_acc_rubik_cube"
+	val[]: "Rubik's Cube"
+		
+	key[]: "michaleczeq_acc_led_wolf_head"
+	val[]: "Wolf Head"
+	
+	key[]: "michaleczeq_acc_mug_rhombus"
+	val[]: "Mug - Rhombus design"
+	
+	key[]: "michaleczeq_acc_mug_triangle"
+	val[]: "Mug - Triangle design"
+	
+	key[]: "michaleczeq_acc_mug_zebra"
+	val[]: "Mug - Zebra design"
+	
+	key[]: "michaleczeq_acc_xmas_ball_red"
+	val[]: "Xmas Ball - Red"
+	
+	key[]: "michaleczeq_acc_xmas_ball_green"
+	val[]: "Xmas Ball - Green"
+	
+	key[]: "michaleczeq_acc_xmas_ball_blue"
+	val[]: "Xmas Ball - Blue"
+	
+	key[]: "michaleczeq_acc_xmas_ball_daisy1"
+	val[]: "Xmas Ball - Growing Daisy ver.1"
+	
+	key[]: "michaleczeq_acc_xmas_ball_daisy2"
+	val[]: "Xmas Ball - Growing Daisy ver.2"
+	
+	key[]: "michaleczeq_acc_xmas_ball_brocade1"
+	val[]: "Xmas Ball - Brocade Wave ver.1"
+	
+	key[]: "michaleczeq_acc_xmas_ball_brocade2"
+	val[]: "Xmas Ball - Brocade Wave ver.2"
+	
+	key[]: "michaleczeq_acc_xmas_ball_forest"
+	val[]: "Xmas Ball - Forest"
+	
+}
+}

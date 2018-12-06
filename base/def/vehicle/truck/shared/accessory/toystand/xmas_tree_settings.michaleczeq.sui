@@ -1,0 +1,7 @@
+	name: "@@michaleczeq_acc_xmas_tree@@"
+	price: 115
+	unlock: 0
+	icon: "xmas_tree.michaleczeq"
+   
+	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
+	coll:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmc"

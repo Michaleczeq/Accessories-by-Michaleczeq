@@ -1,0 +1,7 @@
+	name: "@@michaleczeq_acc_mug_zebra@@"
+	icon: "cups/cups_1_0_00.michaleczeq"
+	price: 90
+	unlock: 1
+	
+	interior_model:	"/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq.pmd"
+	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cups_1.michaleczeq.pmc"

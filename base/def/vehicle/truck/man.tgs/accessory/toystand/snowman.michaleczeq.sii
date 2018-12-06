@@ -1,0 +1,7 @@
+SiiNunit
+{
+accessory_addon_int_data : snowman_mic.man.tgs.toystand
+{
+@include "/def/vehicle/truck/shared/accessory/toystand/snowman_settings.michaleczeq.sui"
+}
+}

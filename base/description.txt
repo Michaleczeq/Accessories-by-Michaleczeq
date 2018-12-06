@@ -1,15 +1,5 @@
-[blue]POL:[normal]
-[green]Akcesoria by Michaleczeq[normal]
-Modyfikacja dodająca do gry akcesoria dla ciągników.
-Część z nich wymaga posiadania [red]DLC Cabin Accessories/PC Gamer DLC![normal]
-
-Modele wykonane przez Michaleczeq za pomocą SCS Blender Tools.
-
-
-[blue]ENG:[normal]
 [green]Accessories by Michaleczeq[normal]
 Modification adds to game accessories for trucks.
-Some of them require you to have [red]DLC Cabin Accessories/PC Gamer DLC![normal]
 
 Models made by Michaleczeq using SCS Blender Tools.
 
@@ -20,19 +10,39 @@ Accessories list:
 [orange]
 * CMR
 * Xmas Tree
-* [red][DLC][orange] CB Radio
-* [red][DLC][orange] Rubik's cube
-* [red][DLC][orange] Snowman
-* [red][DLC][orange] Xmas Bubbles (8 variants)
+* CB Radio
+* Rubik's cube
+* Snowman
+* Xmas Bubbles (8 variants)
+* Cups (3 variants and 8 looks)
+* Wolf Head (LED)
 [normal]
 
 Changelist:
-[blue]2.0:[normal]
-* Added Xmas Tree and Xmas Bubbles
-* Changed some materials and textures
+[blue]5.0:[normal]
+* Again fixed CB pins in DAF XF
+* Improved icons in shop
+* Added support for translations
+* Added support for some of modification trucks
+* Added missing accessories for SCS trucks
+* Added new accessory - Wolf Head (LED above bed)
+* Extracted accessories settings to separate .sui file
+* Removed unnecessary files
+
+[blue]4.0:[normal]
+* Fixed CB pins in reworked DAF XF model
+* Added new accessories - 3 different cups with few looks
+
+[blue]3.0.1:[normal]
+* Correction CB pin in MAN
+* From now this mod doesn't require DLC Cabin Accessories
 
 [blue]3.0:[normal]
 * Added CB Radio
 * Added some pins from DLC Cabin Accessories
 * Changed some materials and textures
 * Fixed a bug with the lack of blue bubbles
+
+[blue]2.0:[normal]
+* Added Xmas Tree and Xmas Bubbles
+* Changed some materials and textures
