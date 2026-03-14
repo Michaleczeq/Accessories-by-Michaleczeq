@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.79.0 (hash: f4dc9f9d68b), SCS Blender Tools: 1.11.2032583"
+    Source: "Blender 5.0.1 (hash: a3db93c5b259), SCS Blender Tools: 2.4.aeadde03.8.1"
     Type: "Trait"
     Name: "wolf01.michaleczeq"
 }
@@ -19,9 +19,9 @@ Global {
 Look {
     Name: "default"
     Material {
-        Alias: "wolf01.001"
+        Alias: "wolf01"
         Effect: "eut2.dif.spec"
-        Flags: 0
+        Flags: 1
         AttributeCount: 5
         TextureCount: 1
         Attribute {
@@ -55,10 +55,10 @@ Look {
         }
     }
     Material {
-        Alias: "wolf01_light.001"
+        Alias: "wolf01_light"
         Effect: "eut2.light.tex"
         Flags: 1
-        AttributeCount: 4
+        AttributeCount: 5
         TextureCount: 1
         Attribute {
             Format: FLOAT3
@@ -71,9 +71,14 @@ Look {
             Value: ( 1.0 1.0 1.0 )
         }
         Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 0.0 )
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "aux[5]"
+            Value: ( 0.0 0.0 )
         }
         Attribute {
             Format: FLOAT
@@ -89,21 +94,21 @@ Look {
 Variant {
     Name: "default"
     Part {
-        Name: "electrics"
-        AttributeCount: 1
-        Attribute {
-            Format: INT
-            Tag: "visible"
-            Value: ( 0 )
-        }
-    }
-    Part {
         Name: "defaultpart"
         AttributeCount: 1
         Attribute {
             Format: INT
             Tag: "visible"
             Value: ( 1 )
+        }
+    }
+    Part {
+        Name: "electrics"
+        AttributeCount: 1
+        Attribute {
+            Format: INT
+            Tag: "visible"
+            Value: ( 0 )
         }
     }
 }

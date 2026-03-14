@@ -1,0 +1,23 @@
+SiiNunit
+{
+accessory_addon_data : wolf01.man.tgx_euro6.intlight_bck
+{
+@include "/def/vehicle/truck/shared/accessory/intlight_bck/wolf01_settings.michaleczeq.sui"
+
+	suitable_for[]: "std_xl_uk.man.tgx_euro6.interior"
+	suitable_for[]: "std_xlx_uk.man.tgx_euro6.interior"
+	suitable_for[]: "std_xxl_uk.man.tgx_euro6.interior"
+
+	suitable_for[]: "standard_xl.man.tgx_euro6.interior"
+	suitable_for[]: "standard_xlx.man.tgx_euro6.interior"
+	suitable_for[]: "standard_xxl.man.tgx_euro6.interior"
+
+	suitable_for[]: "bei_xl_uk.man.tgx_euro6.interior"
+	suitable_for[]: "bei_xlx_uk.man.tgx_euro6.interior"
+	suitable_for[]: "bei_xxl_uk.man.tgx_euro6.interior"
+
+	suitable_for[]: "beige_xl.man.tgx_euro6.interior"
+	suitable_for[]: "beige_xlx.man.tgx_euro6.interior"
+	suitable_for[]: "beige_xxl.man.tgx_euro6.interior"
+}
+}

@@ -1,14 +1,15 @@
 	name: "@@michaleczeq_acc_xmas_ball_blue@@"
 	icon: "xmas_ball_blue.michaleczeq"
+	part_type: aftermarket
 
 	price: 100
 	unlock: 0
-	interior_model:  "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.michaleczeq.pmd"
+	interior_model: "/vehicle/truck/upgrade/interior_decors/toyhang/fastening.pmd"
 	data[]: .xmas_ball.blue.phys_data
 }
 physics_toy_data : .xmas_ball.blue.phys_data
 {
-	phys_model:      "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_blue.michaleczeq.pmd"
-	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_blue.michaleczeq.pmc"
+	phys_model:		 "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_blue.michaleczeq.pmd"
+	phys_model_coll: "/vehicle/truck/upgrade/interior_decors/toyhang/xmas_balls/xmas_ball_blue.michaleczeq.pmc"
 
 @include "/def/vehicle/truck/shared/accessory/toyhang/xmas_ball_physics_settings.michaleczeq.sui"

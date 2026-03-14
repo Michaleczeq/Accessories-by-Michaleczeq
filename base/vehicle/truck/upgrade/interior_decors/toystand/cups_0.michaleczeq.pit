@@ -14,7 +14,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.77.0 (hash: abf6f08), SCS Blender Tools: 1.4.4ae6843"
+    Source: "Blender 5.0.1 (hash: a3db93c5b259), SCS Blender Tools: 2.4.aeadde03.8.1"
     Type: "Trait"
     Name: "cups_0.michaleczeq"
 }
@@ -27,7 +27,7 @@ Global {
 Look {
     Name: "default"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -39,16 +39,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -108,7 +103,7 @@ Look {
 Look {
     Name: "coffe"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -120,16 +115,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -189,7 +179,7 @@ Look {
 Look {
     Name: "cream"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -201,16 +191,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -270,7 +255,7 @@ Look {
 Look {
     Name: "red"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -282,16 +267,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -351,7 +331,7 @@ Look {
 Look {
     Name: "black"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -363,16 +343,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -432,7 +407,7 @@ Look {
 Look {
     Name: "gray"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -444,16 +419,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -513,7 +483,7 @@ Look {
 Look {
     Name: "green"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -525,16 +495,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"
@@ -594,7 +559,7 @@ Look {
 Look {
     Name: "blue"
     Material {
-        Alias: "shadow"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -606,16 +571,11 @@ Look {
         }
     }
     Material {
-        Alias: "cup_shadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"

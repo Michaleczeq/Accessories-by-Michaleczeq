@@ -1,5 +1,6 @@
 	name: "@@michaleczeq_acc_mug_zebra@@"
 	icon: "cups/cups_1_0_00.michaleczeq"
+	part_type: aftermarket
 	price: 90
 	unlock: 1
 	

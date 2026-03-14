@@ -5,7 +5,7 @@ SiiNunit
 mod_package : .package_name {
 
     # Package version can be any string with any length.
-    package_version: "5.0"
+    package_version: "7.0"
 
     # Display name can be any string with any length.
     display_name: "Accessory by Michaleczeq"
@@ -16,6 +16,9 @@ mod_package : .package_name {
     # Categories is an array of strings.
     category[]: "interior"
 	category[]: "tuning_parts"
+	
+	# Set if this mod is optional in Convoy mode.
+	mp_mod_optional: true
 
     # Icon is a path relative to mod root directory.
     icon: "icon.michaleczeq.jpg"

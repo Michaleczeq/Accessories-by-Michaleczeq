@@ -4,3 +4,4 @@
 	interior_model: "/vehicle/truck/upgrade/intlight_bck/michaleczeq/wolf01_scania_2016.michaleczeq.pmd"
 	exterior_model: "/vehicle/truck/upgrade/intlight_bck/michaleczeq/wolf01_scania_2016.michaleczeq.pmd"
 	icon: "wolf_head.michaleczeq"
+	part_type: aftermarket

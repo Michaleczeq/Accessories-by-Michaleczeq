@@ -19,6 +19,18 @@ Accessories list:
 [normal]
 
 Changelist:
+[blue]7.0:[normal]
+* Added missing accessories for: Iveco S-Way, Volvo FH 2021, Volvo FH 2024
+* Fixed broken cup models
+* Other fixes in definitions and models
+
+[blue]6.0:[normal]
+* Added missing accessories for: DAF 2021, DAF XD, MAN TGX, MAN TGX E6, Renault T
+* Added information about the aftermarket for accessories
+* Updated model and material format
+* Small tweaks in frame texture (Wolf Head)
+* Modification is now optional i Convoy mode
+
 [blue]5.0:[normal]
 * Again fixed CB pins in DAF XF
 * Improved icons in shop

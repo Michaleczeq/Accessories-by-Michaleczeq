@@ -6,7 +6,7 @@
 #
 Header {
     FormatVersion: 1
-    Source: "Blender 2.76.0 (hash: f337fea), SCS Blender Tools: 1.2.bfa9481"
+    Source: "Blender 5.0.1 (hash: a3db93c5b259), SCS Blender Tools: 2.4.aeadde03.8.1"
     Type: "Trait"
     Name: "xmas_tree.michaleczeq"
 }
@@ -21,8 +21,8 @@ Look {
     Material {
         Alias: "xmax_lmap"
         Effect: "eut2.lightmap.night"
-        Flags: 1
-        AttributeCount: 4
+        Flags: 0
+        AttributeCount: 5
         TextureCount: 1
         Attribute {
             Format: FLOAT3
@@ -35,9 +35,14 @@ Look {
             Value: ( 0.0 0.0 0.0 )
         }
         Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 0.0 )
+            Format: FLOAT3
+            Tag: "env_factor"
+            Value: ( 0.0 0.0 0.0 )
+        }
+        Attribute {
+            Format: FLOAT2
+            Tag: "aux[5]"
+            Value: ( 0.0 0.0 )
         }
         Attribute {
             Format: FLOAT
@@ -86,7 +91,7 @@ Look {
         }
     }
     Material {
-        Alias: "shadowonly"
+        Alias: "SHDW"
         Effect: "eut2.shadowonly"
         Flags: 1
         AttributeCount: 1
@@ -95,6 +100,42 @@ Look {
             Format: FLOAT
             Tag: "shadow_bias"
             Value: ( 0.0 )
+        }
+    }
+    Material {
+        Alias: "xmas_tree"
+        Effect: "eut2.dif.spec"
+        Flags: 1
+        AttributeCount: 5
+        TextureCount: 1
+        Attribute {
+            Format: FLOAT3
+            Tag: "diffuse"
+            Value: ( 1.0 1.0 1.0 )
+        }
+        Attribute {
+            Format: FLOAT3
+            Tag: "specular"
+            Value: ( 0.10000000149011612 0.10000000149011612 0.10000000149011612 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "shininess"
+            Value: ( 50.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "add_ambient"
+            Value: ( 0.0 )
+        }
+        Attribute {
+            Format: FLOAT
+            Tag: "reflection"
+            Value: ( 0.0 )
+        }
+        Texture {
+            Tag: "texture[0]:texture_base"
+            Value: "/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq"
         }
     }
     Material {
@@ -148,52 +189,11 @@ Look {
         }
     }
     Material {
-        Alias: "xmas_tree"
-        Effect: "eut2.dif.spec"
-        Flags: 1
-        AttributeCount: 5
-        TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
-        Attribute {
-            Format: FLOAT3
-            Tag: "specular"
-            Value: ( 0.10000000149011612 0.10000000149011612 0.10000000149011612 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "shininess"
-            Value: ( 50.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "add_ambient"
-            Value: ( 0.0 )
-        }
-        Attribute {
-            Format: FLOAT
-            Tag: "reflection"
-            Value: ( 0.0 )
-        }
-        Texture {
-            Tag: "texture[0]:texture_base"
-            Value: "/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq"
-        }
-    }
-    Material {
-        Alias: "decalshadow"
+        Alias: "DECALSHDW"
         Effect: "eut2.decalshadow"
-        Flags: 1
-        AttributeCount: 1
+        Flags: 0
+        AttributeCount: 0
         TextureCount: 1
-        Attribute {
-            Format: FLOAT3
-            Tag: "diffuse"
-            Value: ( 1.0 1.0 1.0 )
-        }
         Texture {
             Tag: "texture[0]:texture_base"
             Value: "/vehicle/truck/upgrade/interior_decors/toystand/alpha_ao.michaleczeq"

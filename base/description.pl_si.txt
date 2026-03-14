@@ -19,6 +19,18 @@ Lista akcesoriów:
 [normal]
 
 Zmiany:
+[blue]7.0:[normal]
+* Dodano brakujące akcesoria do: Iveco S-Way, Volvo FH 2021, Volvo FH 2024
+* Naprawiono popsute modele kubków
+* Inne poprawki w definicjach i modelach
+
+[blue]6.0:[normal]
+* Dodano brakujące akcesoria do: DAF 2021, DAF XD, MAN TGX, MAN TGX E6, Renault T
+* Dodano informację o rynku wtórnym dla akcesoriów
+* Zaktualizowano format modeli i materiałów
+* Lekkie poprawki w teksturze ramki (Głowa wilka)
+* Modyfikacja jest od teraz opcjonalna w trybie Convoy
+
 [blue]5.0:[normal]
 * Ponownie naprawiono pinezki CB w modelu DAF'a
 * Poprawki ikonek w sklepie

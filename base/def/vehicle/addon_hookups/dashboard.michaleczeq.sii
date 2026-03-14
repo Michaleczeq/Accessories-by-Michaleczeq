@@ -4,6 +4,7 @@ accessory_hookup_int_data : snowman_mic.addon_hookup
 	price: 115
 	unlock: 0
 	icon: "snowman.michaleczeq"
+	part_type: aftermarket
 	suitable_for[]: "set_dashbrd"
    
 	model:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_b.michaleczeq.pmd"
@@ -17,47 +18,47 @@ accessory_hookup_int_data : snowman_mic.addon_hookup
 
 physics_toy_data : .snowman_h.phys_data
 {
-	phys_model:     "/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmd"
-	phys_model_coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmc"
+	phys_model:		 "/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmd"
+	phys_model_coll: "/vehicle/truck/upgrade/interior_decors/toystand/snowman_h.michaleczeq.pmc"
   
-	toy_type:	 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
-	toy_mass:	 	0.4			# toy mass
-	locator_hook_offset:	(0.0f, 0.091f, 0.000f)	# offset of connection point on hook against toy locator
+	toy_type: "TT_joint"	# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 0.4			# toy mass
+	locator_hook_offset: (0.0f, 0.091f, 0.000f) # offset of connection point on hook against toy locator
   
 	# definitions applied only to toys with joint
 	angular_stiffness:	(250.0, 250.0)		# joint - together with angular damping influences frequency and amplitude of oscilation	Tłumienie
-	angular_damping:	(7.0, 7.0)		# joint - together with angular stiffness influences frequency and amplitude of oscilation		Sztywność
+	angular_damping:	(7.0, 7.0)			# joint - together with angular stiffness influences frequency and amplitude of oscilation	Sztywność
 	angular_amplitude:	(5.0, 15.0, 0.0)	# joint - maximal deflection agains equilibrium position
 }
 
 physics_toy_data : .snowman_lh.phys_data
 {
-	phys_model:     "/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmd"
-	phys_model_coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmc"
+	phys_model:		 "/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmd"
+	phys_model_coll: "/vehicle/truck/upgrade/interior_decors/toystand/snowman_lh.michaleczeq.pmc"
   
-	toy_type:	 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
-	toy_mass:	 	0.2			# toy mass
-	locator_hook_offset:	(-0.02565f, 0.0827f, 0.000f)	# offset of connection point on hook against toy locator
+	toy_type: "TT_joint"	# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 0.2			# toy mass
+	locator_hook_offset: (-0.02565f, 0.0827f, 0.000f) # offset of connection point on hook against toy locator
   
 	# definitions applied only to toys with joint
 	angular_stiffness:	(250.0, 250.0)		# joint - together with angular damping influences frequency and amplitude of oscilation	Tłumienie
-	angular_damping:	(7.0, 7.0)		# joint - together with angular stiffness influences frequency and amplitude of oscilation		Sztywność
+	angular_damping:	(7.0, 7.0)			# joint - together with angular stiffness influences frequency and amplitude of oscilation	Sztywność
 	angular_amplitude:	(10.0, 20.0, 0.0)	# joint - maximal deflection agains equilibrium position
 	#	In blender pos:	(X,	   Z,	 Y)
 }
 
 physics_toy_data : .snowman_rh.phys_data
 {
-	phys_model:     "/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmd"
-	phys_model_coll:	"/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmc"
+	phys_model:		 "/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmd"
+	phys_model_coll: "/vehicle/truck/upgrade/interior_decors/toystand/snowman_rh.michaleczeq.pmc"
   
-	toy_type:	 	"TT_joint"		# TT_rope, TT_double_rope, TT_joint
-	toy_mass:	 	0.2			# toy mass
-	locator_hook_offset:	(0.02573f, 0.0827f, 0.000f)	# offset of connection point on hook against toy locator
+	toy_type: "TT_joint"	# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 0.2			# toy mass
+	locator_hook_offset: (0.02573f, 0.0827f, 0.000f) # offset of connection point on hook against toy locator
   
 	# definitions applied only to toys with joint
 	angular_stiffness:	(250.0, 250.0)		# joint - together with angular damping influences frequency and amplitude of oscilation	Tłumienie
-	angular_damping:	(7.0, 7.0)		# joint - together with angular stiffness influences frequency and amplitude of oscilation		Sztywność
+	angular_damping:	(7.0, 7.0)			# joint - together with angular stiffness influences frequency and amplitude of oscilation	Sztywność
 	angular_amplitude:	(10.0, 20.0, 0.0)	# joint - maximal deflection agains equilibrium position
 	#	In blender pos:	(X,	   Z,	 Y)
 }
@@ -68,6 +69,7 @@ accessory_hookup_int_data : xmastree_mic.addon_hookup
 	price: 115
 	unlock: 0
 	icon: "xmas_tree.michaleczeq"
+	part_type: aftermarket
 	suitable_for[]: "set_dashbrd"
    
 	model:	"/vehicle/truck/upgrade/interior_decors/toystand/xmas_tree.michaleczeq.pmd"
@@ -80,10 +82,11 @@ accessory_hookup_int_data : cb_radio.addon_hookup
 	price: 1250
 	unlock: 5
 	icon: "cb_radio.michaleczeq"
+	part_type: aftermarket
 	suitable_for[]: "set_dashbrd"
    
-  	model: "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio.michaleczeq.pmd"
-  	coll: "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio.michaleczeq.pmc"
+  	model:	"/vehicle/truck/upgrade/interior_decors/toystand/cb_radio.michaleczeq.pmd"
+  	coll:	"/vehicle/truck/upgrade/interior_decors/toystand/cb_radio.michaleczeq.pmc"
 
 	data[]: .cb_radio_mic.phys_data
 	
@@ -91,26 +94,25 @@ accessory_hookup_int_data : cb_radio.addon_hookup
 
 physics_toy_data : .cb_radio_mic.phys_data
 {
-	phys_model:      "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio_micro.michaleczeq.pmd"
-	phys_model_coll:      "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio_micro.michaleczeq.pmc"
+	phys_model:		 "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio_micro.michaleczeq.pmd"
+	phys_model_coll: "/vehicle/truck/upgrade/interior_decors/toystand/cb_radio_micro.michaleczeq.pmc"
 
-	toy_type:		"TT_rope"			# TT_rope, TT_double_rope, TT_joint
-	toy_mass:		0.20				# toy mass
-	linear_damping:		0.4				# damping of swinging of toy
-	linear_stiffness: 	0.8				# rope - influences rope springing
-
-	locator_hook_offset:	(-0.06755f, -0.01174f, 0.06006f)		# offset of connection point on hook against toy locator
-						#	 X			Z		   -Y
+	toy_type: "TT_rope"		# TT_rope, TT_double_rope, TT_joint
+	toy_mass: 0.20			# toy mass
+	linear_damping:   0.4	# damping of swinging of toy
+	linear_stiffness: 0.8	# rope - influences rope springing
+	locator_hook_offset: (-0.06755f, -0.01174f, 0.06006f) # offset of connection point on hook against toy locator
+						 #	  X			 Z		   -Y
 	
 	# definitions valid only for toys with rope
-	rope_width:			0.008			# width of rope
-	rope_length:		0.20			# lengt of rope, in the case of double_rope, distance between hook and toy
-	rope_hook_offset:	0.0				# double_rope - distance between hooks, locator is in the middle
-	rope_toy_offset:	0.0				# double_rope - distance between rope tingles at toy
-	rope_resolution:	5				# number of inner nodes of rope, except end nodes with anchores
-	rope_linear_density:	0.5435		# density, i.e. weight of rope per 1 m of length
-	position_iterations:	4			# number of iterations in position solver
-	node_damping:		0.2				# rope node velocity damping
+	rope_width:			 0.008		# width of rope
+	rope_length:		 0.20		# lengt of rope, in the case of double_rope, distance between hook and toy
+	rope_hook_offset:	 0.0		# double_rope - distance between hooks, locator is in the middle
+	rope_toy_offset:	 0.0		# double_rope - distance between rope tingles at toy
+	rope_resolution:	 5			# number of inner nodes of rope, except end nodes with anchores
+	rope_linear_density: 0.5435		# density, i.e. weight of rope per 1 m of length
+	position_iterations: 4			# number of iterations in position solver
+	node_damping:		 0.2		# rope node velocity damping
 	
-	rope_material: 		"/material/ropes/cable_black.michaleczeq.mat"
+	rope_material: "/material/ropes/cable_black.michaleczeq.mat"
 }
